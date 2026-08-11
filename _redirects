@@ -1,2 +1,4 @@
-/api/*  http://GorevYonetim-Backend-API.somee.com/api/:splat  200
-/*      /index.html  200
+/api/register  http://GorevYonetim-Backend-API.somee.com/register  200
+/api/login     http://GorevYonetim-Backend-API.somee.com/login     200
+/api/*         http://GorevYonetim-Backend-API.somee.com/api/:splat  200
+/*             /index.html  200
