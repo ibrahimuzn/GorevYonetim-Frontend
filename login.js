@@ -1,4 +1,4 @@
-const API_URL = "http://GorevYonetim-Backend-API.somee.com";
+const API_URL = "/api";
 
 document.getElementById('login-form').addEventListener('submit', async function (e) {
 
