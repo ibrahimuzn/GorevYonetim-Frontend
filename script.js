@@ -1,4 +1,4 @@
-const API_URL = "https://GorevYonetim-Backend-API.somee.com";
+const API_URL = "http://GorevYonetim-Backend-API.somee.com";
 
 const token = localStorage.getItem('accessToken');
 
