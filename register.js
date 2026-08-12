@@ -18,7 +18,8 @@ document.getElementById('register-form').addEventListener('submit', async functi
     }
 
     try {
-        const response = await fetch(`${API_URL}/register`, {
+        // İŞTE BURAYI DEĞİŞTİRDİK: Aradaki /api kısmını atlayıp direkt adresi verdik
+        const response = await fetch('https://localhost:7094/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

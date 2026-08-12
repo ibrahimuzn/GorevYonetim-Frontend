@@ -8,7 +8,8 @@ document.getElementById('login-form').addEventListener('submit', async function 
     const password = document.getElementById('sifre').value;
 
     try {
-        const response = await fetch(`${API_URL}/login`, {
+        // İŞTE BURAYI DEĞİŞTİRDİK: Aradaki /api kısmını atlayıp direkt adresi verdik
+        const response = await fetch('https://localhost:7094/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
